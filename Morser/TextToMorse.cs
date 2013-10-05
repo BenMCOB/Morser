@@ -17,7 +17,7 @@ namespace Morser
 
         private static string GetTextData()
         {
-            Console.WriteLine("Enter your messageeee:");
+            Console.WriteLine("Enter your message:");
             string text = Console.ReadLine();
             return text;
         }
