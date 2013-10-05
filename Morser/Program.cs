@@ -9,7 +9,7 @@ namespace Morser
         {
             List<bool> _binaryData = new List<bool>(0);
             
-            const int byteChunkSize = 1024*16;
+            const int byteChunkSize = 1024*160;
 
             // Get morse code data
             string encryptedString = TextToMorse.GenerateCodedData();
