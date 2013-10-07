@@ -17,7 +17,7 @@ namespace Morser
             // Convert back from Morse data
             string finalText = MorseToText.ReadCodedData(encryptedString);
             
-            Console.WriteLine("Final text: {0}", finalText);
+            Console.WriteLine("Final texttt: {0}", finalText);
 
             Console.ReadLine();
         }
